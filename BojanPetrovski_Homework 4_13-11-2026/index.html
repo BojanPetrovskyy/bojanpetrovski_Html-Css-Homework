@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with forms</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dado Tea Lunch Special</h1>
+    </header>
+    <main>
+        <form action="" method="POST">
+            <div>
+                <p>
+                    Monday through Friday
+                    <br>
+                    11 am ~ 3 pm
+                    <br>
+                    $9.95 plus tax
+                </p>
+                <p>
+                    Includes sandwich, snack, and drink.
+                </p>
+            </div>
+            <fieldset>
+                <legend>Order Information:</legend>
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="John Doe" required>
+                <br>
+                <input type="radio" name="orderType" id="here" value="here">
+                <label for="here">Here</label>
+                <br>
+                <input type="radio" name="orderType" id="togo" value="togo">
+                <label for="togo">To Go</label>
+            </fieldset>
+            <fieldset>
+                <legend>Sandwiches</legend>
+                <br>
+                <div>
+                    <strong>Monday</strong>
+                    <input type="radio" name="mondayMenu" id="tomatoMozzarella" value="tomatoMozzarella">
+                    <label for="tomatoMozzarella">Tomato Mozzarella</label>
+                    <br>
+                    <input type="radio" name="mondayMenu" id="chickenSalad" value="chickenSalad">
+                    <label for="chickenSalad">Chicken Salad</label>
+                </div>
+                <br>
+                <div>
+                    <strong>Tuesday</strong>
+                    <input type="radio" name="tuesdayMenu" id="greekSaladWrap" value="greekSaladWrap">
+                    <label for="greekSaladWrap">Greek Salad Wrap</label>
+                    <br>
+                    <input type="radio" name="tuesdayMenu" id="totoWrap" value="totoWrap">
+                    <label for="totoWrap">Toto Wrap</label>
+                </div>
+                <br>
+                <div>
+                    <strong>Wednesday</strong>
+                    <input type="radio" name="wednesdayMenu" id="redPepperHummus" value="redPepperHummus">
+                    <label for="redPepperHummus">Red Pepper Hummus</label>
+                    <br>
+                    <input type="radio" name="wednesdayMenu" id="roastedTurkey" value="roastedTurkey">
+                    <label for="roastedTurkey">Roasted Turkey</label>
+                </div>
+                <br>
+                <div>
+                    <strong>Thursday</strong>
+                    <input type="radio" name="thursdayMenu" id="carrotGingerHummusWrap" value="carrotGingerHummusWrap">
+                    <label for="carrotGingerHummusWrap">Carrot-Ginger Hummus Wrap</label>
+                    <br>
+                    <input type="radio" name="thursdayMenu" id="eggSalad" value="eggSalad">
+                    <label for="eggSalad">Egg Salad</label>
+                </div>
+                <br>
+                <div>
+                    <strong>Friday</strong>
+                    <input type="radio" name="fridayMenu" id="dadoWrap" value="dadoWrap">
+                    <label for="dadoWrap">Dado Wrap</label>
+                    <br>
+                    <input type="radio" name="fridayMenu" id="tunaSalad" value="tunaSalad">
+                    <label for="tunaSalad">Tuna Salad</label>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <input type="checkbox" name="additionalMenu" id="glutenFreeBread" value="glutenFreeBread">
+                    <label for="glutenFreeBread">Gluten Free Bread (75&cent; extra)</label>
+                </div>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Snack</legend>
+                <br>
+                <strong>Snacks</strong>
+                <input type="radio" name="snackMenu" id="snackApple" value="snackApple">
+                <label for="snackApple">Apple</label>
+                <br>
+                <input type="radio" name="snackMenu" id="snackBanana" value="snackBanana">
+                <label for="snackBanana">Banana</label>
+                <br>
+                <input type="radio" name="snackMenu" id="snackPotatoChips" value="snackPotatoChips">
+                <label for="snackPotatoChips">Potato Chips</label>
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Drink</legend>
+                <br>
+                <label for="drinks"><strong>Drinks</strong></label>
+                <br>
+                <select name="drinksList" id="drinks">
+                    <option value="coffee">Coffee</option>
+                    <option value="icedCoffee">Iced Coffee</option>
+                    <option value="organicPeppermint">Organic Peppermint</option>
+                    <option value="hotGreenTea_Sencha">Hot Green Tea - Sencha</option>
+                    <option value="icedGreenTea_Sencha">Iced Green Tea - Sencha</option>
+                    <option value="hotBlackTea_Keemun">Hot Black Tea - Keemun</option>
+                    <option value="icedBlackTea_Keemun">Iced Black Tea - Keemun</option>
+                </select>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <input type="checkbox" name="largeDrink" id="largeDrink" value="largeDrink">
+                    <label for="largeDrink">Large drink (75&cent; extra)</label>
+                </div>
+                <br>
+            </fieldset>
+            <br>
+            <br>
+            <button type="submit">Place Order</button>
+            <br>
+            <br>
+            <hr>            
+        </form>
+    </main>
+    <footer>
+       <p>&copy; Copyright 2026 &vert; Bojan Petrovski &vert; HTML &amp; CSS &vert; Homework #4</p> 
+    </footer>
+</body>
+
+</html>
