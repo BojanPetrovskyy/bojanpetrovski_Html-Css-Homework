@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonus Student Exercise</title>
+</head>
+
+<body>
+    <main>
+        <form action="" method="POST">
+            <table border="1" frame="box" rules="groups" cellspacing="0" cellpadding="10" width="100%">
+
+                <thead>
+                    <tr>
+                        <th align="left" bgcolor="lightgray" colspan="2">Testform</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td width="30%"><label for="name">Name:</label></td>
+                        <!--we put width only here to specify for each row later, no need to add in all rows-->
+                        <td><input type="text" name="name" id="name" placeholder="John Doe" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" name="password" id="password" placeholder="Password" required></td>
+                    </tr>
+                    <tr valign="top">
+                        <td><label for="gender">Gender:</label></td>
+                        <td>
+                            <input type="radio" name="gender" id="male" value="male" required>
+                            <value for="male">Male</value>
+                            <br>
+                            <input type="radio" name="gender" id="female" value="female" required>
+                            <value for="male">Female</value>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="continent">Continent:</label></td>
+                        <td>
+                            <select name="continent" id="continent" required>
+                                <option value="" selected disabled>Please select...</option>
+                                <option value="africa">Africa</option>
+                                <option value="asia">Asia</option>
+                                <option value="europe">Europe</option>
+                                <option value="north-america">North America</option>
+                                <option value="south-america">South America</option>
+                                <option value="oceania">Oceania</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td><label>Meals</label></td>
+                        <td>
+                            <input type="checkbox" name="meals" id="breakfast" value="breakfast">
+                            <label for="breakfast">Breakfast</label>
+                            <br>
+                            <input type="checkbox" name="meals" id="lunch" value="lunch">
+                            <label for="lunch">Lunch</label>
+                            <br>
+                            <input type="checkbox" name="meals" id="dinner" value="dinner">
+                            <label for="dinner">Dinner</label>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td><label for="remark">Remark</label></td>
+                        <td><textarea name="remark" id="remark" placeholder="Write your comment here..." cols="50"
+                                rows="6"></textarea></td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td align="right" bgcolor="lightgray" colspan="2">
+                            <button type="submit">Send</button>
+                            <button type="reset">Cancel</button>
+                        </td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </form>
+    </main>
+    <br>
+    <hr>    
+    <footer>
+        <p>&copy; Copyright 2026 &vert; Bojan Petrovski &vert; HTML &amp; CSS &vert; Homework #4</p>
+    </footer>
+</body>
+
+</html>
