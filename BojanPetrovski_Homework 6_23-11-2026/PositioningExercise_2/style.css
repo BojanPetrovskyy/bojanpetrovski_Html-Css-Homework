@@ -10,6 +10,8 @@
     background-color: rgb(229, 238, 235);
     width: 150px;
     height: 70px;
+    top: 0;
+    left: 0;
 }
 
 .div-2{
@@ -18,7 +20,7 @@
     width: 70px;
     height: 150px;
     top: 80px;
-
+    left: 0;
 }
 
 .div-3{
@@ -27,6 +29,7 @@
     width: 70px;
     height: 290px;
     top: 240px;
+    left: 0;
 }
 
 .div-4{
@@ -35,6 +38,7 @@
     width: 70px;
     height: 160px;
     top: 540px;
+    left: 0;
 }
 
 .div-5{
@@ -42,6 +46,7 @@
     background-color: rgb(242, 231, 213);
     width: 280px;
     height: 70px;
+    top: 0;
     left: 160px;
 }
 
